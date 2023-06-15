@@ -1,0 +1,30 @@
+.sf{
+    margin-top: -1em;
+    border-radius: 0.5em;
+    text-align: center;
+    justify-content: center;
+    width: 20%;
+}
+.sf:hover{
+    background-color: #e6e6e6;
+}
+
+.cardContainer{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    overflow-y: auto;
+    border: 1px solid gray;
+    border-radius: 6px;
+    background-color: lightgray;
+    overflow-anchor:none;
+    overflow:auto;
+}
+.mainContainer{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
